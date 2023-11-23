@@ -55,7 +55,7 @@ export const ModalMap = (props) => {
     <div>
       <div
         className="map-container-modal"
-        style={{ height: "20vh", width: "100%" }}
+        style={{ height: "30vh", width: "100%", padding: "10px" }}
       >
         <GoogleMapReact
           bootstrapURLKeys={{ key: "REMOVED" }}

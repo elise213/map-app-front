@@ -72,7 +72,7 @@ export const ModalMap = (props) => {
       <div className="map-container-modal">
         <GoogleMapReact
           bootstrapURLKeys={{
-            key: "REMOVED",
+            key: apikey,
           }}
           center={city.center}
           defaultZoom={14}
